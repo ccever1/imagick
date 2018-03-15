@@ -1,0 +1,11 @@
+cd imagick/
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/ccever1/imagick.git
+git push origin master
+git branch --set-upstream-to=origin/master master
+git pull
+git add t.txt
+git commit -m '1'
+git push
