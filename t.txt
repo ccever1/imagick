@@ -3,6 +3,8 @@ git init
 git add .
 git commit -m "initial commit"
 git remote add origin https://github.com/ccever1/imagick.git
+#push之前需要 git branch --set-upstream-to=origin/master master git version 2.12.2.windows.2
+#push之前需要 git pull --allow-unrelated-histories  git version 2.12.2.windows.2
 git push origin master
 git branch --set-upstream-to=origin/master master
 git pull
